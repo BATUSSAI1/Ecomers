@@ -13,7 +13,7 @@
 }
 
 body{
-    background-color: lightgray; 
+    background-color: transparent;
     padding: 1rem;
 }
 
@@ -32,7 +32,6 @@ header{
     left: 0;
     top: 0;
     display: flex;
-  
 }
 
 header nav{
@@ -74,12 +73,12 @@ header nav > i{
 }
 
 .container{
-        background-color: blue;
+    background-color: aliceblue;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     max-width: 1024px;
     margin: var(--h-header) auto;
-    padding: 1rem;
+    padding: 2rem;
     gap: 1rem;
     
 }
@@ -95,7 +94,7 @@ header nav > i{
 
 .botones button{
 color:blue;
-font-size: 1rem;
+font-size: 1.5rem;
 padding: 0.5rem 1.5rem;
 text-transform: uppercase;
 border-radius: 16px;
@@ -110,6 +109,7 @@ cursor: pointer;
     box-shadow: 14px -9px 19px -4px rgba(21,66,214,1); 
     padding: 1rem;
     gap: 1rem;
+    border: 1px solid black;
     
 }
 
@@ -311,11 +311,17 @@ user-select: none;
     font-size: 2rem;
     color: black;
 }
+
 .infoPersonal{
-    background-color: yellow;
     display: flex;
+    justify-content: center;
     gap: 2rem;
     color: black;
+    text-transform: uppercase;
+}
+
+.infoPersonal a{
+    cursor: pointer;
 }
 
 
